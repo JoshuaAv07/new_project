@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+.Tag__container{
+    display:block;
+    margin:auto;
+}
+.Character__container{
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 450px;
+    height: 180px;
+    background-color: #5c4242;
+}
+.Character__image{
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+}
+.Character__data{
+    margin-left: 20px;
+}
+h2{
+    margin: 0;
+    padding-left: 10px;
+    color: #4f5e96;
+}
+p, small{
+    color: gainsboro;
+    margin: 0;
+    padding-left: 30px;
+}
