@@ -1,4 +1,4 @@
-const URL = "https://rickandmortyapi.com/api/character/?page=4"
+const URL = "https://rickandmortyapi.com/api/character/"
 
 class Http{
     static instance = new Http()
