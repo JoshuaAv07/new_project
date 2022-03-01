@@ -9,9 +9,9 @@
 .Details__container {
     display: block;
     margin: auto;
-    padding: 30px;
-    width: 600px;
-    height: 600px;
+    padding: 40px;
+    width: 700px;
+    height: 700px;
     background-color: #5c4242;
     border-radius: 15%;
 }
