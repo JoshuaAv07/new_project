@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useParams} from "react-router-dom";
+import { useParams } from "react-router-dom";
 import Http from "../../lib/request";
 import "./Detail.css"
 
-const DetailCharacter = () =>{
+const DetailCharacter = () => {
     const { id } = useParams();
     const [character, setCharacter] = useState({})
     const [origin, setOrigin] = useState({})
@@ -17,7 +17,7 @@ const DetailCharacter = () =>{
             setLocation(character.location)
         }
         fetchCharacter();
-    },[id])
+    },[4])
 
     return (
         <React.Fragment>

@@ -1,18 +1,22 @@
 * {
     box-sizing: border-box;
 }
+.back{
+    background-color: gainsboro;
+}
+.Details{
+    padding: 20px;
+    background-color: gainsboro;
+    
+}
 .Details__container {
     display: block;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
     padding: 30px;
     width: 600px;
     height: 600px;
     background-color: #5c4242;
-    border-color: gainsboro;
     border-radius: 15%;
-    border: 10px;
 }
 .Details__img{
     margin: auto;
